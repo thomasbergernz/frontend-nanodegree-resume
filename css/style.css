@@ -11,11 +11,12 @@
 .education-entry, .work-entry, .project-entry {
   padding-left: 5%;
   padding-right: 5%;
+  padding-bottom: 20px;
 }
 
 h1 {
   font-size: 40px;
-  color: #F5A623;
+  color: #083a77;
   line-height: 48px;
   display: inline;
 }
@@ -23,13 +24,13 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999999;
+  color: rgba(8, 58, 119, 0.5);
   line-height: 29px;
   padding: 10px;
 }
 
 h3 {
-  font-style: italic;
+/*   font-style: italic; */
   font-size: 20px;
   color: #000000;
   line-height: 22px;
@@ -52,7 +53,7 @@ h2, h3, h4, h5 {
 .date-text {
   font-style: italic;
   font-size: 14px;
-  color: #999999;
+  color: rgba(8, 58, 119, 0.5);
   line-height: 16px;
   float: left;
 }
@@ -60,7 +61,7 @@ h2, h3, h4, h5 {
 .location-text {
   font-style: italic;
   font-size: 14px;
-  color: #999999;
+  color: rgba(8, 58, 119, 0.5);
   line-height: 16px;
   float: right;
 
@@ -73,7 +74,7 @@ p {
 }
 
 a {
-  color: #1199C3;
+  color: #083a77;
   text-decoration: none;
   margin-top: 10px;
   display: block;
@@ -87,16 +88,16 @@ a {
 }
 
 #skillsH3 {
-  color: #F5AE23;
+  color: #083a77;
   display: none;
 }
 
 .orange {
-  background-color: #F5AE23;
+  background-color: rgba(119, 77, 8, 0.31);
 }
 
 .orange-text {
-  color: #F5AE23;
+  color: #083a77;
 }
 
 .white-text {
@@ -105,18 +106,18 @@ a {
 }
 
 .gray {
-  background-color: #F3F3F3;
+  background-color: rgba(119, 77, 8, 0.31);
   padding-bottom: 10px;
   clear:both;
 }
 
 .dark-gray {
-  background-color: #4A4A4A;
+  background-color: rgba(119, 77, 8, 0.61);
 }
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: rgba(121, 77, 8, 0.61);
 }
 
 .flex-box {
@@ -148,6 +149,8 @@ ul {
 
 img {
   padding: 10px;
+  max-width:40%;
+  height:auto;
 }
 
 /* Bar chart stuff */
