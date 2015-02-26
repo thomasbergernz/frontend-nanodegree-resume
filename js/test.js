@@ -10,15 +10,26 @@ var incrementLastArrayElement = function(_array) {
     // turns into:
     // newArray = [1, 2, 4];
     
+<<<<<<< HEAD
     // Your code goes in here! http://forums.udacity.com/questions/100243446/where-does-_array-come-from
     // array.pop() The pop() method pulls the last element off of the given array and returns it. This alters the array on which the method was called.
     // array.push() The push() method can append one or more elements to the end of an array. This alters the array on which the method was called.
     newArray = _array.slice(0);
     var lastValue = newArray.pop();
     newArray.push(lastValue + 1);
+=======
+    // Your code goes in here!
+    $(sampleArray).append(sampleArray.length);
+    
+>>>>>>> origin/master
     // Don't delete this line!
     return newArray;
 };
 
+<<<<<<< HEAD
+=======
+// $("#main").append(skills.length);
+
+>>>>>>> origin/master
 // Did your code work? The line below will tell you!
 console.log(incrementLastArrayElement(sampleArray));
