@@ -125,7 +125,7 @@ bio.display = function() {
     var formattedBioPic = HTMLbioPic.replace("%data%",bio.pictureURL);
     var formattedWelcomeMsg = HTMLWelcomeMsg.replace("%data%", bio.welcomeMessage);
 
-    $("#header").append(formattedBioPic).append(formattedWelcomeMsg);
+    $("#header").append(formattedBioPic) //.append(formattedWelcomeMsg);
 
     if (bio.skills.length > 0) {
         $('#header').append(HTMLskillsStart);
