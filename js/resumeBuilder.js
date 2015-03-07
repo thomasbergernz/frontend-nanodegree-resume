@@ -190,10 +190,11 @@ education.display = function(){
             var formattedOnlineSchool = HTMLonlineSchool.replace("%data%", education.onlineCourses[onlineCourse].school);
             var formattedOnlineDates = HTMLonlineDates.replace("%data%", education.onlineCourses[onlineCourse].dates);
             var formattedSchoolLocation = HTMLschoolLocation.replace("%data%", education.onlineCourses[onlineCourse].city);
-            $(".education-entry:last").append(formattedOnlineTitle + formattedOnlineSchool).append(formattedOnlineDates).append(formattedSchoolLocation);
+            $(".education-entry:last").append(formattedOnlineTitle + formattedOnlineSchool).append(formattedOnlineDates);
         };
     };
 }
+//if ($('#person_data[document_type]').val().length != 0){}
 
 $("#mapDiv").append(googleMap);
 bio.display();
