@@ -9,7 +9,7 @@ var bio = {
 	},
 	"pictureURL":["https://www.stellanow.com/download/thumbnails/1671199/MugShot_smaller.png?version=1&modificationDate=1383312002890&api=v2"],
 	"welcomeMessage":"Greetings Earthling!",
-	"skills":["Confluence","JIRA","Agile","JavaScript","Scrum","CSS","HTML5","jQuery"]
+	"skills":["Confluence","JIRA","Agile","JavaScript","Scrum","CSS","HTML5","JQuery"]
 };
 
 var education = {
@@ -62,14 +62,14 @@ var work = {
 		"employer":"Stella Now Limited",
 		"dates":"2011 - 2015",
 		"city":"Auckland, New Zealand",
-		"description":["Developed, documented and marketed methodes and a system to do technical documentation and knowledge sharing for IT service providers based on Atlassian Confluence."]
+		"description":["Designed, documented and marketed methodes and a system to do technical documentation and knowledge sharing for IT service providers based on Atlassian Confluence as a platform. Led a team to develop an integration solutions with partial 2-way sync between ConnectWise and Stella add-ons in Confluence."]
 		}
 		,
 		{"position":"Consulting Engineer",
 		"employer":"Imagetext Publishing Systems Ltd",
 		"dates":"2008 - 2011",
 		"city":"Auckland, New Zealand",
-		"description":["superior customer service and support (both onsite and remote) design, presentation and implementation project management of complete computer system solutions in the commercial, digital media market specialist for Mac OS X Server, Apple Xsan systems and Active Directory integration responsible for training and development improvement of the internal documentation system incl. standard templates development of a web interface for the Filemaker based job management system design of minimal touch OS deployment system workflows administer managed client services for Mac using Kaseya"]
+		"description":["Superior customer service and support (both onsite and remote) design, presentation and implementation. Project management of complete computer system solutions in the commercial, digital media market. Specialist for Mac OS X Server, Apple Xsan systems and Active Directory integration. Responsible for training and development improvement of the internal documentation system incl. standard templates. Development of a web interface for the Filemaker based job management system. Design of minimal touch OS deployment system workflows. Managed client services for Mac using Kaseya."]
 		}
 		,
 		{"position":"Consulting Engineer",
